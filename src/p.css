@@ -1,0 +1,39 @@
+
+.p0  { padding: 0 }
+.pt0 { padding-top: 0 }
+.pr0 { padding-right: 0 }
+.pb0 { padding-bottom: 0 }
+.pl0 { padding-left: 0 }
+
+.p1  { padding: var(--s1) }
+.pt1 { padding-top: var(--s1) }
+.pr1 { padding-right: var(--s1) }
+.pb1 { padding-bottom: var(--s1) }
+.pl1 { padding-left: var(--s1) }
+.px1 { padding-left: var(--s1); padding-right: var(--s1) }
+.py1 { padding-top: var(--s1); padding-bottom: var(--s1) }
+
+.p2  { padding: var(--s2) }
+.pt2 { padding-top: var(--s2) }
+.pr2 { padding-right: var(--s2) }
+.pb2 { padding-bottom: var(--s2) }
+.pl2 { padding-left: var(--s2) }
+.px2 { padding-left: var(--s2); padding-right: var(--s2) }
+.py2 { padding-top: var(--s2); padding-bottom: var(--s2) }
+
+.p3  { padding: var(--s3) }
+.pt3 { padding-top: var(--s3) }
+.pr3 { padding-right: var(--s3) }
+.pb3 { padding-bottom: var(--s3) }
+.pl3 { padding-left: var(--s3) }
+.px3 { padding-left: var(--s3); padding-right: var(--s3) }
+.py3 { padding-top: var(--s3); padding-bottom: var(--s3) }
+
+.p4  { padding: var(--s4) }
+.pt4 { padding-top: var(--s4) }
+.pr4 { padding-right: var(--s4) }
+.pb4 { padding-bottom: var(--s4) }
+.pl4 { padding-left: var(--s4) }
+.px4 { padding-left: var(--s4); padding-right: var(--s4) }
+.py4 { padding-top: var(--s4); padding-bottom: var(--s4) }
+

@@ -1,0 +1,30 @@
+{
+  "name": "gravitons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --progress --colors",
+    "dev": "webpack-dev-server --progress --colors",
+    "css": "node scripts/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^5.1.1",
+    "cssstats": "^1.6.0",
+    "csswring": "^3.0.5",
+    "filesize": "^3.1.2",
+    "json-loader": "^0.5.1",
+    "jsx-loader": "^0.13.2",
+    "node-libs-browser": "^0.5.2",
+    "postcss": "^4.1.11",
+    "postcss-calc": "^4.0.1",
+    "postcss-custom-properties": "^3.3.0",
+    "postcss-import": "^5.2.2",
+    "react": "^0.13.3",
+    "static-site-generator-webpack-plugin": "^1.0.0",
+    "webpack": "^1.9.8",
+    "webpack-dev-server": "^1.9.0"
+  }
+}

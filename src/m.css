@@ -1,0 +1,31 @@
+
+.m0  { margin: 0 }
+.mt0 { margin-top: 0 }
+.mr0 { margin-right: 0 }
+.mb0 { margin-bottom: 0 }
+.ml0 { margin-left: 0 }
+
+.m1  { margin: var(--s1) }
+.mt1 { margin-top: var(--s1) }
+.mr1 { margin-right: var(--s1) }
+.mb1 { margin-bottom: var(--s1) }
+.ml1 { margin-left: var(--s1) }
+
+.m2  { margin: var(--s2) }
+.mt2 { margin-top: var(--s2) }
+.mr2 { margin-right: var(--s2) }
+.mb2 { margin-bottom: var(--s2) }
+.ml2 { margin-left: var(--s2) }
+
+.m3  { margin: var(--s3) }
+.mt3 { margin-top: var(--s3) }
+.mr3 { margin-right: var(--s3) }
+.mb3 { margin-bottom: var(--s3) }
+.ml3 { margin-left: var(--s3) }
+
+.m4  { margin: var(--s4) }
+.mt4 { margin-top: var(--s4) }
+.mr4 { margin-right: var(--s4) }
+.mb4 { margin-bottom: var(--s4) }
+.ml4 { margin-left: var(--s4) }
+
