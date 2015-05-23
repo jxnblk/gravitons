@@ -1,13 +1,43 @@
 
 body {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  line-height: 1.5;
   color: var(--slate);
 }
 
+a {
+  color: var(--blue);
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 700;
+}
+
+.lh1 { line-height: 1 }
+
+.b  { border: 1px solid var(--silver) }
 .bt { border-top: 1px solid var(--silver) }
 .bb { border-bottom: 1px solid var(--silver) }
 
 .tc { text-align: center }
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.caps2 { letter-spacing: .2em }
+.caps3 { letter-spacing: .3em }
+
+.c1, .c2, .c3, .c4 {
+  column-gap: 2rem;
+}
+
+li, .avoid-break { break-inside: avoid }
+
+.c1 { columns: 20rem }
+.c2 { columns: 24rem }
+.c3 { columns: 28rem }
+.c4 { columns: 32rem }
 
 .Logo {}
 
@@ -47,8 +77,15 @@ body {
   to   { opacity: 0; transform: scale(1.375) }
 }
 
+.slate { color: var(--slate) }
+.blue  { color: var(--blue) }
+
+.bg-slate { background-color: var(--slate) }
+.bg-blue  { background-color: var(--blue) }
+
 :root {
   --silver: #ccc;
-  --slate: #234;
+  --slate: #157;
+  --blue: #168;
 }
 

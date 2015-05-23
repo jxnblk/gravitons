@@ -5,13 +5,13 @@
   v1.0.0
   http://jxnblk.com/gravitons
 
- Size: 2.18 kB
- Gzipped: 634 B
- Rules: 85
- Declarations: 108
- Selectors: 86
+ Size: 2.45 kB
+ Gzipped: 688 B
+ Rules: 90
+ Declarations: 120
+ Selectors: 91
  Properties: 28
- Average Specificity: 10.034883720930232
+ Average Specificity: 10.032967032967033
 
 */
 .h1 { font-size: 2rem }
@@ -49,6 +49,11 @@
 .mr4 { margin-right: 4rem }
 .mb4 { margin-bottom: 4rem }
 .ml4 { margin-left: 4rem }
+
+.mxn1 { margin-left: -.5rem; margin-right: -.5rem }
+.mxn2 { margin-left: -1rem; margin-right: -1rem }
+.mxn3 { margin-left: -2rem; margin-right: -2rem }
+.mxn4 { margin-left: -4rem; margin-right: -4rem }
 .p0  { padding: 0 }
 .pt0 { padding-top: 0 }
 .pr0 { padding-right: 0 }
@@ -107,6 +112,7 @@
 .x { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
 .xw { -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap }
 .xc { -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center }
+.xb { -webkit-box-align: baseline; -webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline }
 
 .x1 { width: 100% }
 .x2 { width: 50% }

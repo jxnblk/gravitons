@@ -29,3 +29,8 @@
 .mb4 { margin-bottom: var(--s4) }
 .ml4 { margin-left: var(--s4) }
 
+.mxn1 { margin-left: -var(--s1); margin-right: -var(--s1) }
+.mxn2 { margin-left: -var(--s2); margin-right: -var(--s2) }
+.mxn3 { margin-left: -var(--s3); margin-right: -var(--s3) }
+.mxn4 { margin-left: -var(--s4); margin-right: -var(--s4) }
+

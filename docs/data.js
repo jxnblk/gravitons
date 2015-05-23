@@ -6,6 +6,7 @@ var postcss = require('postcss');
 var customProperties = require('postcss-custom-properties');
 var autoprefixer = require('autoprefixer');
 var csswring = require('csswring');
+var stats = require('./stats.json');
 
 var gravitons = fs.readFileSync('css/gravitons.min.css', 'utf8');
 
@@ -40,6 +41,7 @@ module.exports = {
   title: 'Gravitons',
   description: pkg.description,
   css: css,
-  rules: rules
+  rules: rules,
+  stats: stats,
 };
 

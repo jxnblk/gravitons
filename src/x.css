@@ -2,6 +2,7 @@
 .x { display: flex }
 .xw { flex-wrap: wrap }
 .xc { align-items: center }
+.xb { align-items: baseline }
 
 .x1 { width: calc(100%/1) }
 .x2 { width: calc(100%/2) }
