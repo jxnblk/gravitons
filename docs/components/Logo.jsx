@@ -7,6 +7,7 @@ var Logo = React.createClass({
     var width = 160;
     // Angle
     var a = 36;
+    var a1 = 90 - a;
     var a2 = 180 - a;
     // Radii
     var r0 = width * 0.5625;
@@ -21,7 +22,7 @@ var Logo = React.createClass({
     var o3 = width/2 - r3;
     var o4 = width/2 - r4;
     // Diagonal line stroke width
-    var w = 12;
+    var w = 2;
     // Calculate x coordinate with radius and angle
     var rx = function(r, a) {
       return r + r * Math.cos(Math.PI * a/180);
@@ -30,17 +31,17 @@ var Logo = React.createClass({
     var ry = function(r, a) {
       return r + r * Math.sin(Math.PI * a/180);
     };
+    var wy = Math.cos(90-a) * w;
+    var wx = Math.sin(90-a) * w;
 
     // Need to account for angle
-    var pyth = function(c, angle) {
-      //c = Math.sqrt(2*Math.pow(a, 2));
-      //return Math.pow((Math.sqrt(c)/2), 2);
-      //return {
-      //  //a: Math.pow((Math.sqrt(c)/2), 2),
-      //  b: Math.pow((Math.sqrt(c)/2*(90-angle)/90), 2),
-      //  a: Math.pow((Math.sqrt(c)/2*angle/90), 2),
-      //}
-      return Math.pow((Math.sqrt(c)/2), 2);
+    var xya = function(angle, c) {
+      var x = Math.cos(angle) * c;
+      var y = Math.sin(angle) * c;
+      return {
+        x: x,
+        y: y
+      }
     };
 
     var circle = [
@@ -61,30 +62,30 @@ var Logo = React.createClass({
 
     var diagonal = [
       'M',
-      pyth(w,a) + o0 + rx(r0, a),
-      o0 + ry(r0, a),
+      wx + o0 + rx(r0, a),
+      -wy + o0 + ry(r0, a),
       'L',
-      o0 + rx(r0, a),
-      pyth(w,a) + o0 + ry(r0, a),
+      -wx + o0 + rx(r0, a),
+      wy + o0 + ry(r0, a),
       'L',
-      o4 + rx(r4, -a2),
-      pyth(w,a) + o4 + ry(r4, -a2),
+      -wx + o4 + rx(r4, -a2),
+      wy + o4 + ry(r4, -a2),
       'L',
-      pyth(w,a) + o4 + rx(r4, -a2),
-      o4 + ry(r4, -a2),
+      wx + o4 + rx(r4, -a2),
+      -wy + o4 + ry(r4, -a2),
       'z',
       'M',
-      pyth(w,a) + o1 + rx(r1, -a2),
-      o1 + ry(r1, -a2),
+      wx + o1 + rx(r1, -a2),
+      -wy + o1 + ry(r1, -a2),
       'L',
-      o1 + rx(r1, -a2),
-      pyth(w,a) + o1 + ry(r1, -a2),
+      -wx + o1 + rx(r1, -a2),
+      wy + o1 + ry(r1, -a2),
       'L',
-      o0 + rx(r0, -a2),
-      pyth(w,a) + o0 + ry(r0, -a2),
+      -wx + o0 + rx(r0, -a2),
+      wy + o0 + ry(r0, -a2),
       'L',
-      pyth(w,a) + o0 + rx(r0, -a2),
-      o0 + ry(r0, -a2),
+      wx + o0 + rx(r0, -a2),
+      -wy + o0 + ry(r0, -a2),
       'z'
     ].join(' ');
 
@@ -97,6 +98,7 @@ var Logo = React.createClass({
         width={width}
         height={width}
         fill="currentcolor">
+        {/*
         <circle
           className="Logo-ring"
           cx={width/2}
@@ -104,6 +106,7 @@ var Logo = React.createClass({
           r={r2}
           fill="none"
           stroke="currentcolor" />
+        */}
         <g className="Logo-particle-1">
           <rect width={width} height={width} fill="none" />
           <circle
