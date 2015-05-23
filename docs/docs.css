@@ -1,6 +1,14 @@
 
 body {
   font-family: 'Helvetica', sans-serif;
-  color: #234;
+  color: var(--slate);
+}
+
+.bt { border-top: 1px solid var(--silver) }
+.bb { border-bottom: 1px solid var(--silver) }
+
+:root {
+  --silver: #ccc;
+  --slate: #234;
 }
 

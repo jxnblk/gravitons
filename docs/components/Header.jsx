@@ -1,13 +1,15 @@
 
 var React = require('react');
+var Logo = require('./Logo.jsx');
 
 var Header = React.createClass({
 
   render: function() {
     return (
       <header className="py2">
-        <h1 className="m0">{this.props.title}</h1>
-        <p className="m0">{this.props.description}</p>
+        <Logo />
+        <h1 className="">{this.props.title}</h1>
+        <p className="h3">{this.props.description}</p>
       </header>
     )
   }

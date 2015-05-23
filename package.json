@@ -1,12 +1,13 @@
 {
   "name": "gravitons",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSS for bending the spacetime continuum",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack --progress --colors",
     "dev": "webpack-dev-server --progress --colors",
-    "css": "node scripts/css"
+    "css": "node scripts/css",
+    "start": "npm run dev"
   },
   "author": "",
   "license": "ISC",

@@ -2,6 +2,7 @@
 var React = require('react');
 var Head = require('./Head.jsx');
 var Header = require('./Header.jsx');
+var Styles = require('./Styles.jsx');
 
 var Root = React.createClass({
 
@@ -11,6 +12,7 @@ var Root = React.createClass({
         <Head {...this.props} />
         <body className="p3">
           <Header {...this.props} />
+          <Styles {...this.props} />
         </body>
       </html>
     )

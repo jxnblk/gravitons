@@ -4,7 +4,6 @@ var React = require('react');
 var Head = React.createClass({
 
   render: function() {
-    console.log('props.css', this.props.css);
     return (
       <head>
         <meta charSet="utf-8" />
