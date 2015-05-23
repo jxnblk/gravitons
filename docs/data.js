@@ -4,6 +4,7 @@ var path = require('path');
 var pkg = require('../package.json');
 var postcss = require('postcss');
 var customProperties = require('postcss-custom-properties');
+var autoprefixer = require('autoprefixer');
 var csswring = require('csswring');
 
 var gravitons = fs.readFileSync('css/gravitons.min.css', 'utf8');
@@ -16,6 +17,7 @@ var css = [
 ].join('');
 
 css = postcss([customProperties()])
+  .use(autoprefixer())
   .use(csswring())
   .process(css)
   .css;
