@@ -6,7 +6,7 @@ var Header = React.createClass({
 
   render: function() {
     return (
-      <header className="py2">
+      <header className="tc py2">
         <Logo />
         <h1 className="">{this.props.title}</h1>
         <p className="h3">{this.props.description}</p>
