@@ -5,22 +5,25 @@ var Number = require('./Number.jsx');
 
 var Stats = React.createClass({
 
+  renderStat: function(stat, i) {
+    return (
+      <div key={i} className="dib c3 p1" style={{minWidth:128}}>
+        <Number value={stat.value} label={stat.label} />
+      </div>
+    )
+  },
+
   render: function() {
     var s = this.props.stats;
+    var stats = [
+      { value: filesize(s.gzipSize), label: 'Gzipped' },
+      { value: s.rules.length, label: 'Rules' },
+      { value: s.aggregates.selectors, label: 'Selectors' },
+      { value: s.aggregates.declarations, label: 'Declarations' },
+    ];
     return (
-      <section className="tc x xw py4 mxn3">
-        <div className="xa px3 py1">
-          <Number value={filesize(s.gzipSize)} label="Gzipped" />
-        </div>
-        <div className="xa px3 py1">
-          <Number value={s.rules.length} label="Rules" />
-        </div>
-        <div className="xa px3 py1">
-          <Number value={s.aggregates.selectors} label="Selectors" />
-        </div>
-        <div className="xa px3 py1">
-          <Number value={s.aggregates.declarations} label="Declarations" />
-        </div>
+      <section className="tc cf py4 mxn3">
+        {stats.map(this.renderStat)}
       </section>
     )
   }

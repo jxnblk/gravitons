@@ -4,7 +4,9 @@ var Head = require('./Head.jsx');
 var Header = require('./Header.jsx');
 var Intro = require('./Intro.jsx');
 var Stats = require('./Stats.jsx');
+var Install = require('./Install.jsx');
 var Features = require('./Features.jsx');
+var Elements = require('./Elements.jsx');
 var Styles = require('./Styles.jsx');
 var Definition = require('./Definition.jsx');
 var Related = require('./Related.jsx');
@@ -20,6 +22,7 @@ var Root = React.createClass({
           <Header {...this.props} />
           <Intro {...this.props} />
           <Stats {...this.props} />
+          <Install />
           <Features {...this.props} />
           <Styles {...this.props} />
           <Definition {...this.props} />

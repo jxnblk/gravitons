@@ -1,5 +1,9 @@
 # gravitons
 
+Virtually massless CSS layout microlibrary
+
+_or_
+
 CSS for bending the spacetime continuum
 
 _or_

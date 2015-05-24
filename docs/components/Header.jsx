@@ -9,12 +9,14 @@ var Header = React.createClass({
     return (
       <header className="tc py4">
         <Logo />
-        <h1 className="caps caps3">{this.props.title}</h1>
-        <p className="h3">{this.props.description}</p>
-        <Button {...this.props}
-          href="//github.com/jxnblk/gravitons">
-          Github
-        </Button>
+        <h1 className="m0 caps caps3">{this.props.title}</h1>
+        <p className="h3 m0">{this.props.description}</p>
+        <div className="m3">
+          <Button {...this.props}
+            href="//github.com/jxnblk/gravitons">
+            Github
+          </Button>
+        </div>
       </header>
     )
   }

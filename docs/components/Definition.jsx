@@ -1,6 +1,8 @@
 
 var React = require('react');
 var Blockquote = require('./Blockquote.jsx');
+var Button = require('./Button.jsx');
+var Install = require('./Install.jsx');
 
 var Definition = React.createClass({
 
@@ -12,11 +14,12 @@ var Definition = React.createClass({
       }
     };
     return (
-      <section style={styles.container} className="py4">
+      <section style={styles.container} className="tc py4">
         <Blockquote>
           The graviton is a hypothetical elementary particle that mediates the force of gravitation in the framework of quantum field theory.
-          The word comes from the Latin <i>gravitas</i>, meaning “weight, seriousness.” 
         </Blockquote>
+        <Install />
+        <Button href="//github.com/jxnblk/gravitons">Github</Button>
       </section>
     )
   }

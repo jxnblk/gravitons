@@ -1,10 +1,10 @@
 {
   "averages": {
     "specificity": 10.032967032967033,
-    "ruleSize": 1.3333333333333333
+    "ruleSize": 1.2777777777777777
   },
-  "size": 2511,
-  "gzipSize": 688,
+  "size": 2413,
+  "gzipSize": 617,
   "selectors": [
     {
       "selector": ".h1",
@@ -1052,24 +1052,11 @@
       "specificity_10": 11
     },
     {
-      "selector": ".x",
+      "selector": ".c1",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".x",
-          "type": "b",
-          "index": 0,
-          "length": 2
-        }
-      ],
-      "specificity_10": 10
-    },
-    {
-      "selector": ".xw",
-      "specificity": "0,0,1,0",
-      "parts": [
-        {
-          "selector": ".xw",
+          "selector": ".c1",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1078,11 +1065,11 @@
       "specificity_10": 10
     },
     {
-      "selector": ".xc",
+      "selector": ".c2",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".xc",
+          "selector": ".c2",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1091,11 +1078,11 @@
       "specificity_10": 10
     },
     {
-      "selector": ".xb",
+      "selector": ".c3",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".xb",
+          "selector": ".c3",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1104,11 +1091,11 @@
       "specificity_10": 10
     },
     {
-      "selector": ".x1",
+      "selector": ".c4",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".x1",
+          "selector": ".c4",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1117,11 +1104,11 @@
       "specificity_10": 10
     },
     {
-      "selector": ".x2",
+      "selector": ".c5",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".x2",
+          "selector": ".c5",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1130,11 +1117,11 @@
       "specificity_10": 10
     },
     {
-      "selector": ".x3",
+      "selector": ".c6",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".x3",
+          "selector": ".c6",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1143,11 +1130,11 @@
       "specificity_10": 10
     },
     {
-      "selector": ".x4",
+      "selector": ".c7",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".x4",
+          "selector": ".c7",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1156,11 +1143,11 @@
       "specificity_10": 10
     },
     {
-      "selector": ".x6",
+      "selector": ".c8",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".x6",
+          "selector": ".c8",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1169,11 +1156,11 @@
       "specificity_10": 10
     },
     {
-      "selector": ".x8",
+      "selector": ".c9",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".x8",
+          "selector": ".c9",
           "type": "b",
           "index": 0,
           "length": 3
@@ -1182,27 +1169,40 @@
       "specificity_10": 10
     },
     {
-      "selector": ".xa",
+      "selector": ".c10",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".xa",
+          "selector": ".c10",
           "type": "b",
           "index": 0,
-          "length": 3
+          "length": 4
         }
       ],
       "specificity_10": 10
     },
     {
-      "selector": ".xn",
+      "selector": ".c11",
       "specificity": "0,0,1,0",
       "parts": [
         {
-          "selector": ".xn",
+          "selector": ".c11",
           "type": "b",
           "index": 0,
-          "length": 3
+          "length": 4
+        }
+      ],
+      "specificity_10": 10
+    },
+    {
+      "selector": ".c12",
+      "specificity": "0,0,1,0",
+      "parts": [
+        {
+          "selector": ".c12",
+          "type": "b",
+          "index": 0,
+          "length": 4
         }
       ],
       "specificity_10": 10
@@ -2930,444 +2930,384 @@
       "childs": [
         {
           "type": "decl",
-          "prop": "display",
-          "value": "-webkit-box",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 91
         },
         {
           "type": "decl",
-          "prop": "display",
-          "value": "-webkit-flex",
+          "prop": "width",
+          "value": "8.33333%",
           "index": 92
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 91
         },
         {
           "type": "decl",
-          "prop": "display",
-          "value": "-ms-flexbox",
+          "prop": "width",
+          "value": "8.33333%",
+          "index": 92
+        }
+      ],
+      "selector": ".c1"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 93
         },
         {
           "type": "decl",
-          "prop": "display",
-          "value": "flex",
+          "prop": "width",
+          "value": "16.66667%",
           "index": 94
         }
       ],
       "declarations": [
         {
           "type": "decl",
-          "prop": "display",
-          "value": "-webkit-box",
-          "index": 91
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "-webkit-flex",
-          "index": 92
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "-ms-flexbox",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 93
         },
         {
           "type": "decl",
-          "prop": "display",
-          "value": "flex",
+          "prop": "width",
+          "value": "16.66667%",
           "index": 94
         }
       ],
-      "selector": ".x"
+      "selector": ".c2"
     },
     {
       "type": "rule",
       "childs": [
         {
           "type": "decl",
-          "prop": "-webkit-flex-wrap",
-          "value": "wrap",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 95
         },
-        {
-          "type": "decl",
-          "prop": "-ms-flex-wrap",
-          "value": "wrap",
-          "index": 96
-        },
-        {
-          "type": "decl",
-          "prop": "flex-wrap",
-          "value": "wrap",
-          "index": 97
-        }
-      ],
-      "declarations": [
-        {
-          "type": "decl",
-          "prop": "-webkit-flex-wrap",
-          "value": "wrap",
-          "index": 95
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex-wrap",
-          "value": "wrap",
-          "index": 96
-        },
-        {
-          "type": "decl",
-          "prop": "flex-wrap",
-          "value": "wrap",
-          "index": 97
-        }
-      ],
-      "selector": ".xw"
-    },
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-align",
-          "value": "center",
-          "index": 98
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-align-items",
-          "value": "center",
-          "index": 99
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex-align",
-          "value": "center",
-          "index": 100
-        },
-        {
-          "type": "decl",
-          "prop": "align-items",
-          "value": "center",
-          "index": 101
-        }
-      ],
-      "declarations": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-align",
-          "value": "center",
-          "index": 98
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-align-items",
-          "value": "center",
-          "index": 99
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex-align",
-          "value": "center",
-          "index": 100
-        },
-        {
-          "type": "decl",
-          "prop": "align-items",
-          "value": "center",
-          "index": 101
-        }
-      ],
-      "selector": ".xc"
-    },
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-align",
-          "value": "baseline",
-          "index": 102
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-align-items",
-          "value": "baseline",
-          "index": 103
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex-align",
-          "value": "baseline",
-          "index": 104
-        },
-        {
-          "type": "decl",
-          "prop": "align-items",
-          "value": "baseline",
-          "index": 105
-        }
-      ],
-      "declarations": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-align",
-          "value": "baseline",
-          "index": 102
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-align-items",
-          "value": "baseline",
-          "index": 103
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex-align",
-          "value": "baseline",
-          "index": 104
-        },
-        {
-          "type": "decl",
-          "prop": "align-items",
-          "value": "baseline",
-          "index": 105
-        }
-      ],
-      "selector": ".xb"
-    },
-    {
-      "type": "rule",
-      "childs": [
         {
           "type": "decl",
           "prop": "width",
-          "value": "100%",
+          "value": "25%",
+          "index": 96
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 95
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "25%",
+          "index": 96
+        }
+      ],
+      "selector": ".c3"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 97
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "33.33333%",
+          "index": 98
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 97
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "33.33333%",
+          "index": 98
+        }
+      ],
+      "selector": ".c4"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 99
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "41.66667%",
+          "index": 100
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 99
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "41.66667%",
+          "index": 100
+        }
+      ],
+      "selector": ".c5"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 101
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "50%",
+          "index": 102
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 101
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "50%",
+          "index": 102
+        }
+      ],
+      "selector": ".c6"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 103
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "58.33333%",
+          "index": 104
+        }
+      ],
+      "declarations": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 103
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "58.33333%",
+          "index": 104
+        }
+      ],
+      "selector": ".c7"
+    },
+    {
+      "type": "rule",
+      "childs": [
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 105
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "66.66667%",
           "index": 106
         }
       ],
       "declarations": [
         {
           "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 105
+        },
+        {
+          "type": "decl",
           "prop": "width",
-          "value": "100%",
+          "value": "66.66667%",
           "index": 106
         }
       ],
-      "selector": ".x1"
+      "selector": ".c8"
     },
     {
       "type": "rule",
       "childs": [
         {
           "type": "decl",
-          "prop": "width",
-          "value": "50%",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 107
-        }
-      ],
-      "declarations": [
+        },
         {
           "type": "decl",
           "prop": "width",
-          "value": "50%",
-          "index": 107
-        }
-      ],
-      "selector": ".x2"
-    },
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "width",
-          "value": "33.33333%",
+          "value": "75%",
           "index": 108
         }
       ],
       "declarations": [
         {
           "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 107
+        },
+        {
+          "type": "decl",
           "prop": "width",
-          "value": "33.33333%",
+          "value": "75%",
           "index": 108
         }
       ],
-      "selector": ".x3"
+      "selector": ".c9"
     },
     {
       "type": "rule",
       "childs": [
         {
           "type": "decl",
-          "prop": "width",
-          "value": "25%",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 109
-        }
-      ],
-      "declarations": [
+        },
         {
           "type": "decl",
           "prop": "width",
-          "value": "25%",
-          "index": 109
-        }
-      ],
-      "selector": ".x4"
-    },
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "width",
-          "value": "16.66667%",
+          "value": "83.33333%",
           "index": 110
         }
       ],
       "declarations": [
         {
           "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 109
+        },
+        {
+          "type": "decl",
           "prop": "width",
-          "value": "16.66667%",
+          "value": "83.33333%",
           "index": 110
         }
       ],
-      "selector": ".x6"
+      "selector": ".c10"
     },
     {
       "type": "rule",
       "childs": [
         {
           "type": "decl",
-          "prop": "width",
-          "value": "12.5%",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 111
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "91.66667%",
+          "index": 112
         }
       ],
       "declarations": [
         {
           "type": "decl",
-          "prop": "width",
-          "value": "12.5%",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 111
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "91.66667%",
+          "index": 112
         }
       ],
-      "selector": ".x8"
+      "selector": ".c11"
     },
     {
       "type": "rule",
       "childs": [
         {
           "type": "decl",
-          "prop": "-webkit-box-flex",
-          "value": "1",
-          "index": 112
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-flex",
-          "value": "1 1 auto",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 113
         },
         {
           "type": "decl",
-          "prop": "-ms-flex",
-          "value": "1 1 auto",
+          "prop": "width",
+          "value": "100%",
           "index": 114
-        },
-        {
-          "type": "decl",
-          "prop": "flex",
-          "value": "1 1 auto",
-          "index": 115
         }
       ],
       "declarations": [
         {
           "type": "decl",
-          "prop": "-webkit-box-flex",
-          "value": "1",
-          "index": 112
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-flex",
-          "value": "1 1 auto",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 113
         },
         {
           "type": "decl",
-          "prop": "-ms-flex",
-          "value": "1 1 auto",
+          "prop": "width",
+          "value": "100%",
           "index": 114
-        },
-        {
-          "type": "decl",
-          "prop": "flex",
-          "value": "1 1 auto",
-          "index": 115
         }
       ],
-      "selector": ".xa"
-    },
-    {
-      "type": "rule",
-      "childs": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-flex",
-          "value": "0",
-          "index": 116
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-flex",
-          "value": "none",
-          "index": 117
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex",
-          "value": "none",
-          "index": 118
-        },
-        {
-          "type": "decl",
-          "prop": "flex",
-          "value": "none",
-          "index": 119
-        }
-      ],
-      "declarations": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-flex",
-          "value": "0",
-          "index": 116
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-flex",
-          "value": "none",
-          "index": 117
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex",
-          "value": "none",
-          "index": 118
-        },
-        {
-          "type": "decl",
-          "prop": "flex",
-          "value": "none",
-          "index": 119
-        }
-      ],
-      "selector": ".xn"
+      "selector": ".c12"
     }
   ],
   "declarations": {
@@ -3920,177 +3860,147 @@
       },
       {
         "type": "decl",
-        "prop": "display",
-        "value": "-webkit-box",
+        "prop": "box-sizing",
+        "value": "border-box",
         "index": 91
       },
       {
         "type": "decl",
-        "prop": "display",
-        "value": "-webkit-flex",
+        "prop": "width",
+        "value": "8.33333%",
         "index": 92
       },
       {
         "type": "decl",
-        "prop": "display",
-        "value": "-ms-flexbox",
+        "prop": "box-sizing",
+        "value": "border-box",
         "index": 93
-      },
-      {
-        "type": "decl",
-        "prop": "display",
-        "value": "flex",
-        "index": 94
-      },
-      {
-        "type": "decl",
-        "prop": "-webkit-flex-wrap",
-        "value": "wrap",
-        "index": 95
-      },
-      {
-        "type": "decl",
-        "prop": "-ms-flex-wrap",
-        "value": "wrap",
-        "index": 96
-      },
-      {
-        "type": "decl",
-        "prop": "flex-wrap",
-        "value": "wrap",
-        "index": 97
-      },
-      {
-        "type": "decl",
-        "prop": "-webkit-box-align",
-        "value": "center",
-        "index": 98
-      },
-      {
-        "type": "decl",
-        "prop": "-webkit-align-items",
-        "value": "center",
-        "index": 99
-      },
-      {
-        "type": "decl",
-        "prop": "-ms-flex-align",
-        "value": "center",
-        "index": 100
-      },
-      {
-        "type": "decl",
-        "prop": "align-items",
-        "value": "center",
-        "index": 101
-      },
-      {
-        "type": "decl",
-        "prop": "-webkit-box-align",
-        "value": "baseline",
-        "index": 102
-      },
-      {
-        "type": "decl",
-        "prop": "-webkit-align-items",
-        "value": "baseline",
-        "index": 103
-      },
-      {
-        "type": "decl",
-        "prop": "-ms-flex-align",
-        "value": "baseline",
-        "index": 104
-      },
-      {
-        "type": "decl",
-        "prop": "align-items",
-        "value": "baseline",
-        "index": 105
-      },
-      {
-        "type": "decl",
-        "prop": "width",
-        "value": "100%",
-        "index": 106
-      },
-      {
-        "type": "decl",
-        "prop": "width",
-        "value": "50%",
-        "index": 107
-      },
-      {
-        "type": "decl",
-        "prop": "width",
-        "value": "33.33333%",
-        "index": 108
-      },
-      {
-        "type": "decl",
-        "prop": "width",
-        "value": "25%",
-        "index": 109
       },
       {
         "type": "decl",
         "prop": "width",
         "value": "16.66667%",
-        "index": 110
+        "index": 94
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
+        "index": 95
       },
       {
         "type": "decl",
         "prop": "width",
-        "value": "12.5%",
+        "value": "25%",
+        "index": 96
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
+        "index": 97
+      },
+      {
+        "type": "decl",
+        "prop": "width",
+        "value": "33.33333%",
+        "index": 98
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
+        "index": 99
+      },
+      {
+        "type": "decl",
+        "prop": "width",
+        "value": "41.66667%",
+        "index": 100
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
+        "index": 101
+      },
+      {
+        "type": "decl",
+        "prop": "width",
+        "value": "50%",
+        "index": 102
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
+        "index": 103
+      },
+      {
+        "type": "decl",
+        "prop": "width",
+        "value": "58.33333%",
+        "index": 104
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
+        "index": 105
+      },
+      {
+        "type": "decl",
+        "prop": "width",
+        "value": "66.66667%",
+        "index": 106
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
+        "index": 107
+      },
+      {
+        "type": "decl",
+        "prop": "width",
+        "value": "75%",
+        "index": 108
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
+        "index": 109
+      },
+      {
+        "type": "decl",
+        "prop": "width",
+        "value": "83.33333%",
+        "index": 110
+      },
+      {
+        "type": "decl",
+        "prop": "box-sizing",
+        "value": "border-box",
         "index": 111
       },
       {
         "type": "decl",
-        "prop": "-webkit-box-flex",
-        "value": "1",
+        "prop": "width",
+        "value": "91.66667%",
         "index": 112
       },
       {
         "type": "decl",
-        "prop": "-webkit-flex",
-        "value": "1 1 auto",
+        "prop": "box-sizing",
+        "value": "border-box",
         "index": 113
       },
       {
         "type": "decl",
-        "prop": "-ms-flex",
-        "value": "1 1 auto",
+        "prop": "width",
+        "value": "100%",
         "index": 114
-      },
-      {
-        "type": "decl",
-        "prop": "flex",
-        "value": "1 1 auto",
-        "index": 115
-      },
-      {
-        "type": "decl",
-        "prop": "-webkit-box-flex",
-        "value": "0",
-        "index": 116
-      },
-      {
-        "type": "decl",
-        "prop": "-webkit-flex",
-        "value": "none",
-        "index": 117
-      },
-      {
-        "type": "decl",
-        "prop": "-ms-flex",
-        "value": "none",
-        "index": 118
-      },
-      {
-        "type": "decl",
-        "prop": "flex",
-        "value": "none",
-        "index": 119
       }
     ],
     "byProperty": {
@@ -4632,30 +4542,6 @@
           "prop": "display",
           "value": "table",
           "index": 89
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "-webkit-box",
-          "index": 91
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "-webkit-flex",
-          "index": 92
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "-ms-flexbox",
-          "index": 93
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "flex",
-          "index": 94
         }
       ],
       "float": [
@@ -4696,178 +4582,152 @@
           "index": 90
         }
       ],
-      "webkitFlexWrap": [
+      "boxSizing": [
         {
           "type": "decl",
-          "prop": "-webkit-flex-wrap",
-          "value": "wrap",
-          "index": 95
-        }
-      ],
-      "msFlexWrap": [
-        {
-          "type": "decl",
-          "prop": "-ms-flex-wrap",
-          "value": "wrap",
-          "index": 96
-        }
-      ],
-      "flexWrap": [
-        {
-          "type": "decl",
-          "prop": "flex-wrap",
-          "value": "wrap",
-          "index": 97
-        }
-      ],
-      "webkitBoxAlign": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-align",
-          "value": "center",
-          "index": 98
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 91
         },
         {
           "type": "decl",
-          "prop": "-webkit-box-align",
-          "value": "baseline",
-          "index": 102
-        }
-      ],
-      "webkitAlignItems": [
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 93
+        },
         {
           "type": "decl",
-          "prop": "-webkit-align-items",
-          "value": "center",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 95
+        },
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 97
+        },
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 99
         },
         {
           "type": "decl",
-          "prop": "-webkit-align-items",
-          "value": "baseline",
-          "index": 103
-        }
-      ],
-      "msFlexAlign": [
-        {
-          "type": "decl",
-          "prop": "-ms-flex-align",
-          "value": "center",
-          "index": 100
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex-align",
-          "value": "baseline",
-          "index": 104
-        }
-      ],
-      "alignItems": [
-        {
-          "type": "decl",
-          "prop": "align-items",
-          "value": "center",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 101
         },
         {
           "type": "decl",
-          "prop": "align-items",
-          "value": "baseline",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 103
+        },
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
           "index": 105
+        },
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 107
+        },
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 109
+        },
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 111
+        },
+        {
+          "type": "decl",
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 113
         }
       ],
       "width": [
         {
           "type": "decl",
           "prop": "width",
-          "value": "100%",
-          "index": 106
-        },
-        {
-          "type": "decl",
-          "prop": "width",
-          "value": "50%",
-          "index": 107
-        },
-        {
-          "type": "decl",
-          "prop": "width",
-          "value": "33.33333%",
-          "index": 108
-        },
-        {
-          "type": "decl",
-          "prop": "width",
-          "value": "25%",
-          "index": 109
+          "value": "8.33333%",
+          "index": 92
         },
         {
           "type": "decl",
           "prop": "width",
           "value": "16.66667%",
+          "index": 94
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "25%",
+          "index": 96
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "33.33333%",
+          "index": 98
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "41.66667%",
+          "index": 100
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "50%",
+          "index": 102
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "58.33333%",
+          "index": 104
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "66.66667%",
+          "index": 106
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "75%",
+          "index": 108
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "83.33333%",
           "index": 110
         },
         {
           "type": "decl",
           "prop": "width",
-          "value": "12.5%",
-          "index": 111
-        }
-      ],
-      "webkitBoxFlex": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-flex",
-          "value": "1",
+          "value": "91.66667%",
           "index": 112
         },
         {
           "type": "decl",
-          "prop": "-webkit-box-flex",
-          "value": "0",
-          "index": 116
-        }
-      ],
-      "webkitFlex": [
-        {
-          "type": "decl",
-          "prop": "-webkit-flex",
-          "value": "1 1 auto",
-          "index": 113
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-flex",
-          "value": "none",
-          "index": 117
-        }
-      ],
-      "msFlex": [
-        {
-          "type": "decl",
-          "prop": "-ms-flex",
-          "value": "1 1 auto",
+          "prop": "width",
+          "value": "100%",
           "index": 114
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex",
-          "value": "none",
-          "index": 118
-        }
-      ],
-      "flex": [
-        {
-          "type": "decl",
-          "prop": "flex",
-          "value": "1 1 auto",
-          "index": 115
-        },
-        {
-          "type": "decl",
-          "prop": "flex",
-          "value": "none",
-          "index": 119
         }
       ]
     },
@@ -5308,30 +5168,6 @@
           "prop": "display",
           "value": "table-cell",
           "index": 84
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "-webkit-box",
-          "index": 91
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "-webkit-flex",
-          "index": 92
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "-ms-flexbox",
-          "index": 93
-        },
-        {
-          "type": "decl",
-          "prop": "display",
-          "value": "flex",
-          "index": 94
         }
       ],
       "float": [
@@ -5372,188 +5208,96 @@
           "index": 90
         }
       ],
-      "webkitFlexWrap": [
+      "boxSizing": [
         {
           "type": "decl",
-          "prop": "-webkit-flex-wrap",
-          "value": "wrap",
-          "index": 95
-        }
-      ],
-      "msFlexWrap": [
-        {
-          "type": "decl",
-          "prop": "-ms-flex-wrap",
-          "value": "wrap",
-          "index": 96
-        }
-      ],
-      "flexWrap": [
-        {
-          "type": "decl",
-          "prop": "flex-wrap",
-          "value": "wrap",
-          "index": 97
-        }
-      ],
-      "webkitBoxAlign": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-align",
-          "value": "center",
-          "index": 98
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-box-align",
-          "value": "baseline",
-          "index": 102
-        }
-      ],
-      "webkitAlignItems": [
-        {
-          "type": "decl",
-          "prop": "-webkit-align-items",
-          "value": "center",
-          "index": 99
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-align-items",
-          "value": "baseline",
-          "index": 103
-        }
-      ],
-      "msFlexAlign": [
-        {
-          "type": "decl",
-          "prop": "-ms-flex-align",
-          "value": "center",
-          "index": 100
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex-align",
-          "value": "baseline",
-          "index": 104
-        }
-      ],
-      "alignItems": [
-        {
-          "type": "decl",
-          "prop": "align-items",
-          "value": "center",
-          "index": 101
-        },
-        {
-          "type": "decl",
-          "prop": "align-items",
-          "value": "baseline",
-          "index": 105
+          "prop": "box-sizing",
+          "value": "border-box",
+          "index": 91
         }
       ],
       "width": [
         {
           "type": "decl",
           "prop": "width",
-          "value": "100%",
-          "index": 106
-        },
-        {
-          "type": "decl",
-          "prop": "width",
-          "value": "50%",
-          "index": 107
-        },
-        {
-          "type": "decl",
-          "prop": "width",
-          "value": "33.33333%",
-          "index": 108
-        },
-        {
-          "type": "decl",
-          "prop": "width",
-          "value": "25%",
-          "index": 109
+          "value": "8.33333%",
+          "index": 92
         },
         {
           "type": "decl",
           "prop": "width",
           "value": "16.66667%",
+          "index": 94
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "25%",
+          "index": 96
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "33.33333%",
+          "index": 98
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "41.66667%",
+          "index": 100
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "50%",
+          "index": 102
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "58.33333%",
+          "index": 104
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "66.66667%",
+          "index": 106
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "75%",
+          "index": 108
+        },
+        {
+          "type": "decl",
+          "prop": "width",
+          "value": "83.33333%",
           "index": 110
         },
         {
           "type": "decl",
           "prop": "width",
-          "value": "12.5%",
-          "index": 111
-        }
-      ],
-      "webkitBoxFlex": [
-        {
-          "type": "decl",
-          "prop": "-webkit-box-flex",
-          "value": "1",
+          "value": "91.66667%",
           "index": 112
         },
         {
           "type": "decl",
-          "prop": "-webkit-box-flex",
-          "value": "0",
-          "index": 116
-        }
-      ],
-      "webkitFlex": [
-        {
-          "type": "decl",
-          "prop": "-webkit-flex",
-          "value": "1 1 auto",
-          "index": 113
-        },
-        {
-          "type": "decl",
-          "prop": "-webkit-flex",
-          "value": "none",
-          "index": 117
-        }
-      ],
-      "msFlex": [
-        {
-          "type": "decl",
-          "prop": "-ms-flex",
-          "value": "1 1 auto",
+          "prop": "width",
+          "value": "100%",
           "index": 114
-        },
-        {
-          "type": "decl",
-          "prop": "-ms-flex",
-          "value": "none",
-          "index": 118
-        }
-      ],
-      "flex": [
-        {
-          "type": "decl",
-          "prop": "flex",
-          "value": "1 1 auto",
-          "index": 115
-        },
-        {
-          "type": "decl",
-          "prop": "flex",
-          "value": "none",
-          "index": 119
         }
       ]
     },
     "byMedia": {},
     "importantCount": 0,
-    "vendorPrefixCount": 14
+    "vendorPrefixCount": 0
   },
   "aggregates": {
     "selectors": 91,
-    "declarations": 120,
+    "declarations": 115,
     "properties": [
       "fontSize",
       "margin",
@@ -5571,18 +5315,8 @@
       "overflow",
       "content",
       "clear",
-      "webkitFlexWrap",
-      "msFlexWrap",
-      "flexWrap",
-      "webkitBoxAlign",
-      "webkitAlignItems",
-      "msFlexAlign",
-      "alignItems",
-      "width",
-      "webkitBoxFlex",
-      "webkitFlex",
-      "msFlex",
-      "flex"
+      "boxSizing",
+      "width"
     ],
     "mediaQueries": [],
     "fontSize": {
@@ -5630,8 +5364,8 @@
       "unique": 5
     },
     "display": {
-      "total": 10,
-      "unique": 9
+      "total": 6,
+      "unique": 5
     },
     "float": {
       "total": 2,
@@ -5649,53 +5383,13 @@
       "total": 1,
       "unique": 1
     },
-    "webkitFlexWrap": {
-      "total": 1,
+    "boxSizing": {
+      "total": 12,
       "unique": 1
-    },
-    "msFlexWrap": {
-      "total": 1,
-      "unique": 1
-    },
-    "flexWrap": {
-      "total": 1,
-      "unique": 1
-    },
-    "webkitBoxAlign": {
-      "total": 2,
-      "unique": 2
-    },
-    "webkitAlignItems": {
-      "total": 2,
-      "unique": 2
-    },
-    "msFlexAlign": {
-      "total": 2,
-      "unique": 2
-    },
-    "alignItems": {
-      "total": 2,
-      "unique": 2
     },
     "width": {
-      "total": 6,
-      "unique": 6
-    },
-    "webkitBoxFlex": {
-      "total": 2,
-      "unique": 2
-    },
-    "webkitFlex": {
-      "total": 2,
-      "unique": 2
-    },
-    "msFlex": {
-      "total": 2,
-      "unique": 2
-    },
-    "flex": {
-      "total": 2,
-      "unique": 2
+      "total": 12,
+      "unique": 12
     },
     "idSelectors": 0,
     "classSelectors": 91,

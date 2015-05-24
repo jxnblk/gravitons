@@ -1,7 +1,7 @@
 {
   "name": "gravitons",
   "version": "1.0.0",
-  "description": "CSS for bending the spacetime continuum",
+  "description": "Virtually massless CSS layout microlibrary",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack --progress --colors",

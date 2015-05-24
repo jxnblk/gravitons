@@ -8,10 +8,13 @@ var Footer = React.createClass({
     return (
       <footer className="py4">
         <Container>
-          <div className="x">
-            <a href="//github.com/jxnblk/gravitons">GitHub</a>
-            <div className="xa" />
-            <a href="//jxnblk.com">Made by Jxnblk</a>
+          <div className="cf">
+            <div className="fl">
+              <a href="//github.com/jxnblk/gravitons">GitHub</a>
+            </div>
+            <div className="fr">
+              <a href="//jxnblk.com">Made by Jxnblk</a>
+            </div>
           </div>
         </Container>
       </footer>

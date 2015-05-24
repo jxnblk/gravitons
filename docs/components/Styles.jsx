@@ -6,11 +6,11 @@ var Styles = React.createClass({
   renderRule: function(rule, i) {
     return (
       <li key={i}
-        className="x xb py2 avoid-break bb">
-        <div className="x3 xn">
+        className="cf py2 avoid-break bb">
+        <div className="fl c3 break-word">
           <b>{rule.selector}</b>
         </div>
-        <div className="h5 xa">
+        <div className="fl h5">
           {rule.declarations.map(this.renderDeclaration)}
         </div>
       </li>
@@ -29,7 +29,7 @@ var Styles = React.createClass({
     return (
       <section id="styles">
         <h2 className="h3 caps">Styles</h2>
-        <ul className="pl0 c2" style={{listStyle:'none'}}>
+        <ul className="pl0 cols2" style={{listStyle:'none'}}>
           {this.props.rules.map(this.renderRule)}
         </ul>
       </section>

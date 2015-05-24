@@ -21,6 +21,8 @@ h1, h2, h3, h4, h5, h6, b, strong {
 
 .tc { text-align: center }
 
+.break-word { word-break: break-word }
+
 .caps {
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -34,10 +36,10 @@ h1, h2, h3, h4, h5, h6, b, strong {
 
 li, .avoid-break { break-inside: avoid }
 
-.c1 { columns: 20rem }
-.c2 { columns: 24rem }
-.c3 { columns: 28rem }
-.c4 { columns: 32rem }
+.cols1 { columns: 20rem }
+.cols2 { columns: 24rem }
+.cols3 { columns: 28rem }
+.cols4 { columns: 32rem }
 
 .Logo {}
 
@@ -84,8 +86,10 @@ li, .avoid-break { break-inside: avoid }
 .bg-blue  { background-color: var(--blue) }
 
 :root {
-  --silver: #ccc;
+  --silver: #cef;
   --slate: #157;
+    --slate: #147190;
   --blue: #168;
+    --blue: #007ea8;
 }
 
