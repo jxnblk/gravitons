@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Virtually massless CSS layout microlibrary",
   "main": "index.js",
+  "style": "src/gravitons.css",
   "scripts": {
     "webpack": "webpack --progress --colors",
     "dev": "webpack-dev-server --progress --colors",
     "css": "node scripts/css",
     "start": "npm run dev"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Brent Jackson",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^5.1.1",
     "cssstats": "^1.6.0",
