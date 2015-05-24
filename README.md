@@ -10,3 +10,7 @@ _or_
 
 CSS for desiging with zero mass
 
+http://jxnblk.com/gravitons
+
+MIT License
+
