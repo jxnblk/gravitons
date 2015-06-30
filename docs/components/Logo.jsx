@@ -1,39 +1,39 @@
 
-var React = require('react');
+import React from 'react'
 
-var Logo = React.createClass({
+class Logo extends React.Component {
 
-  render: function() {
-    var size = 256;
-    var width = 160;
+  render () {
+    var size = 256
+    var width = 160
     // Angle
-    var a = 36;
-    var a1 = 90 - a;
-    var a2 = 180 - a;
+    var a = 36
+    var a1 = 90 - a
+    var a2 = 180 - a
     // Radii
-    var r0 = size * 0.5625;
-    var r1 = size * 0.4375;
-    var r2 = size * .375;
-    var r3 = size * .3125;
-    var r4 = size * .25;
+    var r0 = size * 0.5625
+    var r1 = size * 0.4375
+    var r2 = size * .375
+    var r3 = size * .3125
+    var r4 = size * .25
     // Offsets
-    var o0 = size/2 - r0;
-    var o1 = size/2 - r1;
-    var o2 = size/2 - r2;
-    var o3 = size/2 - r3;
-    var o4 = size/2 - r4;
+    var o0 = size/2 - r0
+    var o1 = size/2 - r1
+    var o2 = size/2 - r2
+    var o3 = size/2 - r3
+    var o4 = size/2 - r4
     // Diagonal line stroke width
-    var w = 4;
-    var wy = Math.cos(90-a) * w;
-    var wx = Math.sin(90-a) * w;
+    var w = 4
+    var wy = Math.cos(90-a) * w
+    var wx = Math.sin(90-a) * w
     // Calculate x coordinate with radius and angle
     var rx = function(r, a) {
-      return r + r * Math.cos(Math.PI * a/180);
-    };
+      return r + r * Math.cos(Math.PI * a/180)
+    }
     // Calculate y coordinate with radius and angle
     var ry = function(r, a) {
-      return r + r * Math.sin(Math.PI * a/180);
-    };
+      return r + r * Math.sin(Math.PI * a/180)
+    }
 
     var circle = [
       'M',
@@ -49,7 +49,7 @@ var Logo = React.createClass({
       o3 + rx(r3, -a),
       o3 + ry(r3, -a),
       'z',
-    ].join(' ');
+    ].join(' ')
 
     var diagonal = [
       'M',
@@ -78,29 +78,29 @@ var Logo = React.createClass({
       wx + o0 + rx(r0, -a2),
       -wy + o0 + ry(r0, -a2),
       'z'
-    ].join(' ');
+    ].join(' ')
     
     return (
-      <svg xmlns="http://www.w3.org/svg/2000"
+      <svg xmlns='http://www.w3.org/svg/2000'
         viewBox={'0 0 ' + size + ' ' + size}
         width={width}
         height={width}
-        fill="currentcolor">
-        <g className="Logo-particle-1">
-          <rect width={size} height={size} fill="none" />
+        fill='currentcolor'>
+        <g className='Logo-particle-1'>
+          <rect width={size} height={size} fill='none' />
           <circle
             cx={size/2}
             cy={3}
-            r="3"
-            opacity="0.5" />
+            r='3'
+            opacity='0.5' />
         </g>
-        <g className="Logo-particle-2">
-          <rect width={size} height={size} fill="none" />
+        <g className='Logo-particle-2'>
+          <rect width={size} height={size} fill='none' />
           <circle
             cx={size/2}
             cy={size-4}
-            r="4"
-            opacity="0.5" />
+            r='4'
+            opacity='0.5' />
         </g>
         <path d={circle} />
         <path d={diagonal} />
@@ -108,7 +108,7 @@ var Logo = React.createClass({
     )
   }
 
-});
+}
 
-module.exports = Logo;
+export default Logo
 

@@ -1,17 +1,6 @@
 
-body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-  line-height: 1.5;
-  color: var(--slate);
-}
-
-a {
-  color: var(--blue);
-}
-
-h1, h2, h3, h4, h5, h6, b, strong {
-  font-weight: 700;
-}
+@import 'blk';
+@import '../css/gravitons.css';
 
 .lh1 { line-height: 1 }
 
@@ -23,10 +12,6 @@ h1, h2, h3, h4, h5, h6, b, strong {
 
 .break-word { word-break: break-word }
 
-.caps {
-  text-transform: uppercase;
-  letter-spacing: .1em;
-}
 .caps2 { letter-spacing: .2em }
 .caps3 { letter-spacing: .3em }
 
@@ -41,15 +26,6 @@ li, .avoid-break { break-inside: avoid }
 .cols3 { columns: 28rem }
 .cols4 { columns: 32rem }
 
-.Logo {}
-
-.Logo-ring {
-  transform-origin: 50% 50%;
-  animation-name: wake;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-}
 
 .Logo-particle-1,
 .Logo-particle-2 {
@@ -74,22 +50,4 @@ li, .avoid-break { break-inside: avoid }
   to   { transform: rotate(360deg) }
 }
 
-@keyframes wake {
-  from { opacity: .5; transform: scale(1) }
-  to   { opacity: 0; transform: scale(1.375) }
-}
-
-.slate { color: var(--slate) }
-.blue  { color: var(--blue) }
-
-.bg-slate { background-color: var(--slate) }
-.bg-blue  { background-color: var(--blue) }
-
-:root {
-  --silver: #cef;
-  --slate: #157;
-    --slate: #147190;
-  --blue: #168;
-    --blue: #007ea8;
-}
 

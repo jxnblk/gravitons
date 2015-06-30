@@ -1,25 +1,26 @@
 
-var React = require('react');
+import React from 'react'
+import css from '../docs.css'
 
-var Head = React.createClass({
+class Head extends React.Component {
 
-  render: function() {
+  render () {
     return (
       <head>
-        <meta charSet="utf-8" />
+        <meta charSet='utf-8' />
         <title>{this.props.title}</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta name="description" content={this.props.description} />
-        <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
+        <meta name='viewport' content='width=device-width,initial-scale=1' />
+        <meta name='description' content={this.props.description} />
+        <style dangerouslySetInnerHTML={{ __html: css }} />
         <link
-          href="http://fonts.googleapis.com/css?family=Roboto:400,700"
-          rel="stylesheet"
-          type="text/css"/>
+          href='http://fonts.googleapis.com/css?family=Roboto:400,700'
+          rel='stylesheet'
+          type='text/css'/>
       </head>
     )
   }
 
-});
+}
 
-module.exports = Head;
+export default Head
 

@@ -1,30 +1,31 @@
 
-var React = require('react');
-var Blockquote = require('./Blockquote.jsx');
-var Button = require('./Button.jsx');
-var Install = require('./Install.jsx');
+import React from 'react'
+import Blockquote from './Blockquote.jsx'
+import Button from './Button.jsx'
+import Install from './Install.jsx'
 
-var Definition = React.createClass({
+class Definition extends React.Component {
 
-  render: function() {
-    var styles = {
+  render () {
+    let styles = {
       container: {
         maxWidth: '40em',
         margin: '0 auto'
       }
-    };
+    }
+
     return (
-      <section style={styles.container} className="tc py4">
+      <section style={styles.container} className='py4'>
         <Blockquote>
           The graviton is a hypothetical elementary particle that mediates the force of gravitation in the framework of quantum field theory.
         </Blockquote>
         <Install />
-        <Button href="//github.com/jxnblk/gravitons">Github</Button>
+        <Button href='//github.com/jxnblk/gravitons'>Github</Button>
       </section>
     )
   }
 
-});
+}
 
-module.exports = Definition;
+export default Definition
 

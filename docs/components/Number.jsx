@@ -1,30 +1,31 @@
 
-var React = require('react');
+import React from 'react'
 
-var Number = React.createClass({
+class Number extends React.Component {
 
-  render: function() {
+  render () {
     var styles = {
       value: {
         fontSize: '5vw',
         fontWeight: '700'
       },
       label: {}
-    };
+    }
+
     return (
       <div>
         <div style={styles.value}>
           {this.props.value}
         </div>
         <div style={styles.label}
-          className="h5 caps">
+          className='h5 caps compact'>
           {this.props.label}
         </div>
       </div>
     )
   }
 
-});
+}
 
-module.exports = Number;
+export default Number
 

@@ -1,9 +1,9 @@
 
-var React = require('react');
+import React from 'react'
 
-var Button = React.createClass({
+class Button extends React.Component {
 
-  render: function() {
+  render () {
     var style = {
       display: 'inline-block',
       fontWeight: '700',
@@ -13,19 +13,18 @@ var Button = React.createClass({
       lineHeight: '3',
       padding: '0 1rem',
       color: '#fff',
-      //backgroundColor: this.props.colors.blue,
       borderRadius: '3px'
-    };
+    }
     return (
       <a {...this.props}
         style={style}
-        className="bg-blue">
+        className='bg-blue'>
         {this.props.children}
       </a>
     )
   }
 
-});
+}
 
-module.exports = Button;
+export default Button
 

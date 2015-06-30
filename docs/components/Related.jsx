@@ -1,22 +1,22 @@
 
-var React = require('react');
-var Container = require('./Container.jsx');
+import React from 'react'
+import Container from './Container.jsx'
 
-var Related = React.createClass({
+class Related extends React.Component {
 
-  render: function() {
+  render () {
     return (
-      <section id="related" className="tc py4">
+      <section id='related' className='tc py4'>
         <Container>
-          <h2 className="h3 caps">Related</h2>
-          <a href="//tachyons.io" className="dib p1 m1">Tachyons</a>
-          <a href="//basscss.com" className="dib p1 m1">Basscss</a>
+          <h2 className='h3 caps'>Related</h2>
+          <a href='//tachyons.io' className='dib p1 m1'>Tachyons</a>
+          <a href='//basscss.com' className='dib p1 m1'>Basscss</a>
         </Container>
       </section>
     )
   }
 
-});
+}
 
-module.exports = Related;
+export default Related
 

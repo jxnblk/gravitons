@@ -1,15 +1,15 @@
 
-var React = require('react');
+import React from 'react'
 
-var Install = React.createClass({
+class Install extends React.Component {
 
-  render: function() {
+  render () {
     return (
-      <pre className="tc h3 p1 b">npm i gravitons</pre>
+      <pre className='tc h3 p1 mb4 b'>npm i gravitons</pre>
     )
   }
 
-});
+}
 
-module.exports = Install;
+export default Install
 

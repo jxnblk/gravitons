@@ -1,21 +1,17 @@
 
-var React = require('react');
+import React from 'react'
 
-var Container = React.createClass({
+class Container extends React.Component {
 
-  render: function() {
-    var style = {
-      maxWidth: '56em',
-      margin: '0 auto'
-    };
+  render () {
     return (
-      <div style={style}>
+      <div className='container'>
         {this.props.children}
       </div>
     )
   }
 
-});
+}
 
-module.exports = Container;
+export default Container
 

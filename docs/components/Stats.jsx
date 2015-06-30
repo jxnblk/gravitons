@@ -1,19 +1,19 @@
 
-var React = require('react');
-var filesize = require('filesize');
-var Number = require('./Number.jsx');
+import React from 'react'
+import filesize from 'filesize'
+import Number from './Number.jsx'
 
-var Stats = React.createClass({
+class Stats extends React.Component {
 
-  renderStat: function(stat, i) {
+  renderStat (stat, i) {
     return (
-      <div key={i} className="dib c3 p1" style={{minWidth:128}}>
+      <div key={i} className='dib c3 p1' style={{minWidth:128}}>
         <Number value={stat.value} label={stat.label} />
       </div>
     )
-  },
+  }
 
-  render: function() {
+  render () {
     var s = this.props.stats;
     var stats = [
       { value: filesize(s.gzipSize), label: 'Gzipped' },
@@ -22,13 +22,13 @@ var Stats = React.createClass({
       { value: s.aggregates.declarations, label: 'Declarations' },
     ];
     return (
-      <section className="tc cf py4 mxn3">
+      <section className='tc cf py4 mxn3'>
         {stats.map(this.renderStat)}
       </section>
     )
   }
 
-});
+}
 
-module.exports = Stats;
+export default Stats
 

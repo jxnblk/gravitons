@@ -1,39 +1,45 @@
 
-var React = require('react');
-var Head = require('./Head.jsx');
-var Header = require('./Header.jsx');
-var Intro = require('./Intro.jsx');
-var Stats = require('./Stats.jsx');
-var Install = require('./Install.jsx');
-var Features = require('./Features.jsx');
-var Elements = require('./Elements.jsx');
-var Styles = require('./Styles.jsx');
-var Definition = require('./Definition.jsx');
-var Related = require('./Related.jsx');
-var Footer = require('./Footer.jsx');
+import React from 'react'
+import Head from './Head.jsx'
+import { Header, Footer, CarbonAd } from 'blk'
+import Container from './Container.jsx'
+import Logo from './Logo.jsx'
+import Intro from './Intro.jsx'
+import Stats from './Stats.jsx'
+import Install from './Install.jsx'
+import Features from './Features.jsx'
+import Elements from './Elements.jsx'
+import Styles from './Styles.jsx'
+import Definition from './Definition.jsx'
+import Related from './Related.jsx'
 
-var Root = React.createClass({
+class Root extends React.Component {
 
-  render: function() {
+  render () {
     return (
       <html>
         <Head {...this.props} />
-        <body className="p3">
-          <Header {...this.props} />
-          <Intro {...this.props} />
-          <Stats {...this.props} />
-          <Install />
-          <Features {...this.props} />
+        <body className='p3'>
+          <Container>
+            <div className='tc py4'>
+              <Logo />
+            </div>
+            <Header {...this.props} />
+            <Intro {...this.props} />
+            <Stats {...this.props} />
+            <Install />
+            <Features {...this.props} />
+          </Container>
           <Styles {...this.props} />
           <Definition {...this.props} />
           <Related />
-          <Footer />
+          <Footer {...this.props} />
         </body>
       </html>
     )
   }
 
-});
+}
 
-module.exports = Root;
+export default Root
 

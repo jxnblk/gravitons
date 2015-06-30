@@ -1,20 +1,17 @@
 
-var React = require('react');
+import React from 'react'
 
-var Blockquote = React.createClass({
+class Blockquote extends React.Component {
 
-  render: function() {
-    var style = {
-    };
+  render () {
     return (
-      <blockquote style={style}
-        className="h3 m0">
+      <blockquote className="h3 m0 mb4">
         {this.props.children}
       </blockquote>
     )
   }
 
-});
+}
 
-module.exports = Blockquote;
+export default Blockquote
 
