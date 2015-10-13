@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Virtually massless CSS layout microlibrary",
   "main": "index.js",
-  "style": "src/gravitons.css",
+  "style": "css/gravitons.css",
   "scripts": {
     "css": "node scripts/css",
     "dev": "webpack-dev-server --progress --colors",
