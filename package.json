@@ -5,14 +5,15 @@
   "main": "index.js",
   "style": "src/gravitons.css",
   "scripts": {
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "test": "ava -v"
   },
   "author": "Brent Jackson",
   "license": "MIT",
   "devDependencies": {
+    "ava": "^0.16.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/gravitons.git"
