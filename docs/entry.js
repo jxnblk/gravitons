@@ -31,7 +31,7 @@ const pre = h('pre')({
     lineHeight: 2,
     fontSize: 14,
     overflowX: 'scroll',
-    paddingLeft: 32,
+    paddingLeft: 16,
     marginBottom: 32,
     borderLeft: '4px solid rgba(0,0,0,.0625)'
   }
