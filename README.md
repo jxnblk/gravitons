@@ -1,14 +1,14 @@
 # gravitons
 
-Virtually massless CSS layout microlibrary
+Virtually massless CSS layout microlibrary – http://jxnblk.com/gravitons
 
 [![Build Status](https://travis-ci.org/jxnblk/gravitons.svg?branch=master)](https://travis-ci.org/jxnblk/gravitons)
-
-http://jxnblk.com/gravitons
 
 ```sh
 npm i -g gravitons
 ```
+
+![gravitons](https://cloud.githubusercontent.com/assets/3451712/17651212/1b8de4c0-6230-11e6-9b15-90e659688650.gif)
 
 ```sh
 gravitons > base.css
