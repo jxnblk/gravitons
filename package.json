@@ -3,6 +3,9 @@
   "version": "2.0.0-beta.1",
   "description": "Virtually massless CSS layout microlibrary",
   "main": "index.js",
+  "bin": {
+    "gravitons": "./bin/gravitons.js"
+  },
   "style": "src/gravitons.css",
   "scripts": {
     "start": "npm run dev",
@@ -13,7 +16,8 @@
   "devDependencies": {
     "ava": "^0.16.0"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/gravitons.git"
