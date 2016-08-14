@@ -1,6 +1,6 @@
 {
   "name": "gravitons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Virtually massless CSS layout microlibrary",
   "main": "index.js",
   "bin": {
