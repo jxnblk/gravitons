@@ -100,7 +100,6 @@ Returns the following to stdout:
 .x10{width:83.33333333333334%}
 .x11{width:91.66666666666666%}
 .x12{width:100%}
-
 ```
 
 MIT License
